@@ -1,0 +1,50 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%% ModernCV themes
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+\nopagenumbers{}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+%% Personal data
+\firstname{Sebastian}
+\familyname{Lenartowicz}
+\title{INSERT PITHY TITLE HERE}
+\address{21 Kearney Street}{Guelph, ON N1E 7H2}
+\mobile{(519)~400~8185}
+%%\phone{+2~(345)~678~901}
+%%\fax{+3~(456)~789~012}
+\email{slenarto@uoguelph.ca}
+%%\homepage{www.johndoe.com}
+%%\extrainfo{additional information}
+%%\photo[64pt][0.4pt]{picture}
+%%\quote{Recursion (n.): See entry for recursion.}
+
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2011--2016 (anticipated)}{Bachelor of Computing}{University of Guelph}{Guelph, ON}{}{Degree in Computer Science with a minor in Geographical Information Systems (GIS).}
+
+\section{Skills and Experience}
+\subsection{Projects}
+\cvitem{Computational Cluster}{Created and benchmarked a 12-node heterogenous Beowulf cluster assembled from throwaway computers.}
+\cvitem{Open-source Project}{Created an MIT-licensed open-source library for research into hierarchical genetic algorithms.}
+
+\subsection{Software Development}
+\cvitemwithcomment{Language 1}{Skill level}{Comment}
+\cvdoubleitem{category X}{XXX, YYY, ZZZ}{category Y}{XXX, YYY, ZZZ}
+\cvlistitem{Item 1}
+\cvlistdoubleitem{Item 2}{Item 3}
+%% ...
+
+\end{document}
