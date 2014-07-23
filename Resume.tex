@@ -6,29 +6,27 @@
 \renewcommand{\familydefault}{\sfdefault}
 \nopagenumbers{}
 
-%% Character encoding
 \usepackage[utf8]{inputenc}
-
-%% Adjust the page margins
 \usepackage[scale=0.75]{geometry}
 
-%% Personal data
+
 \firstname{Sebastian}
 \familyname{Lenartowicz}
-\title{Writer of Code}
+\title{Programmatic Problem Solver}
 \address{21 Kearney Street}{Guelph, ON N1E 7H2}
 \mobile{(519)~400~8185}
-%%\phone{+2~(345)~678~901}
-%%\fax{+3~(456)~789~012}
 \email{slenarto@uoguelph.ca}
-%%\homepage{www.johndoe.com}
-\extrainfo{My GitHub: https://github.com/NGTOne}
-%%\photo[64pt][0.4pt]{picture}
+\social[github]{NGTOne}
 \quote{What problem needs solving today?}
 
-%%------------------------------------------------------------------------------
-%% Content
-%%------------------------------------------------------------------------------
+
+%%\phone{+2~(345)~678~901}
+%%\fax{+3~(456)~789~012}
+%%\homepage{www.johndoe.com}
+%%\extrainfo{My GitHub: https://github.com/NGTOne}
+%%\photo[64pt][0.4pt]{picture}
+
+
 \begin{document}
 \makecvtitle
 
@@ -65,10 +63,25 @@
 \cvlistitem{Experience in explaining technology, both hardware and software, to laypersons.}
 \cvlistitem{Ability to communicate well, both orally and in written format.}
 
-%%\cvitemwithcomment{Primary Languages}{C, C++, Java}{}
-%%\cvitemwithcomment{Scripting Languages}{bash, Perl, Python}{}
-%%\cvdoubleitem{category X}{XXX, YYY, ZZZ}{category Y}{XXX, YYY, ZZZ}
-%%\cvlistdoubleitem{Item 2}{Item 3}
-%% ...
+\section{Experience}
+\cventry{May--August 2014}{Intern}{Wind River Systems}{Kanata, ON}{}{Second work term on OVP project.
+\begin{itemize}
+\item Developed automated build system using bash shell scripts to produce operating system images for testing.
+\item Integrated Future Aerospace Capabilities Environment (FACE) conformance test suite into product and tested conformance of Wind River Linux to FACE standard.
+\item Continued to maintain BitBake-based build system and components of OVP v6.0.
+\item Increased knowledge of Linux kernel and inner workings.
+\end{itemize}}
+
+\cventry{September--December 2013}{Intern}{Wind River Systems}{Kanata, ON}{}{Intern and general developer on OVP (Open Virtualization Profile) project.
+\begin{itemize}
+\item Assisted with development of OVP v5.0.1 prior to public release.
+\item Maintained BitBake-based Linux build management system.
+\item Added new packages and functionality to OVP.
+\item Maintained upstream open-source projects.
+\item Gained familiarity with Linux kernel and git source control system.
+\end{itemize}}
+
+\section{References}
+References available upon request.
 
 \end{document}
