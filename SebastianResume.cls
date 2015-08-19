@@ -13,7 +13,7 @@
 \firstname{Sebastian}
 \familyname{Lenartowicz}
 \title{ Problem Solver}
-\address{21 Kearney Street}{Guelph, ON N1E 7H2}
+\address{\#1010, 45 Oakmount Road}{Toronto, ON M6P 2M4}
 \mobile{(519)~400~8185}
 \email{sebastian.lenartowicz.one@gmail.com}
 \social[github]{NGTOne}
