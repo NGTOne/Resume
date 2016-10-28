@@ -5,3 +5,6 @@
 *.out
 *.bbl
 *.blg
+
+signature001.png
+*.let.tex

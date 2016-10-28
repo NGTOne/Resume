@@ -21,3 +21,10 @@
 \email{sebastian.lenartowicz.one@gmail.com}
 \social[github]{NGTOne}
 \quote{What needs doing today?}
+
+\newcommand{\letterclosing}[1]{
+\vspace{\f@size pt}
+Sincerely,\\
+\includegraphics{#1/signature001.png}\\
+Sebastian Lenartowicz
+}
