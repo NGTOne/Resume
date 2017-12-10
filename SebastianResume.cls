@@ -16,8 +16,8 @@
 \firstname{Sebastian}
 \familyname{Lenartowicz}
 \title{ Problem Solver}
-\address{21 Kearney Street}{Guelph, ON, Canada N1E 7H2}
-\mobile{+1~(519)~400~8185}
+\address{Prinsenstraat 30-3}{Amsterdam, Netherlands 1015DD}
+\mobile{+31~(6)~55~600~670}
 \email{sebastian.lenartowicz.one@gmail.com}
 \social[github]{NGTOne}
 \quote{What needs doing today?}
